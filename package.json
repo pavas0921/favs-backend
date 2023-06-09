@@ -2,7 +2,6 @@
   "name": "assesment-backend",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
   "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,14 +11,23 @@
   "license": "ISC",
   "dependencies": {
     "@babel/preset-env": "^7.21.4",
-    "@prisma/client": "^4.13.0",
+    "@prisma/client": "^4.15.0",
     "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.0",
-    "prisma": "^4.13.0",
-    "cors": "^2.8.5"
+    "jsonwebtoken": "^9.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
-  }
+    "nodemon": "^2.0.22",
+    "prisma": "^4.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavas0921/favs-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pavas0921/favs-backend/issues"
+  },
+  "homepage": "https://github.com/pavas0921/favs-backend#readme",
+  "description": ""
 }
